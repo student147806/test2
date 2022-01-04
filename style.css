@@ -1,4 +1,62 @@
 body{
   background-color:black;
   color:white;
+  margin:0;
+}
+main{
+  max-width:600px;
+  margin:auto;
+  display:grid;
+  grid-template-columns: 50% 50%;
+  margin-top:50px;
+}
+/* Block */
+.card{
+  background-color: #1581e2;
+  padding: 100px 10px 40px 10px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  position:relative;
+  font-family:sans-serif;
+  color:white;
+}
+/* Elements */
+.card__link{
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  text-decoration:none;
+  border-radius:100%;
+  padding:5px;
+  transition: all ease 0.3s;
+  background-color:rgba(100%, 100%, 100%, 0.5)
+}
+.card__link:hover{
+  background-color:rgba(100%, 100%, 100%, 0.8)
+}
+
+.card__cta{
+  color:grey;
+  background-color:rgba(100%, 100%, 100%, 0.8);
+  padding:10px 20px;
+  font-size: .8em;
+  text-decoration:none;
+  transition: all ease 0.3s;
+}
+
+.card__cta:hover{
+  background-color:rgba(100%, 100%, 100%, 1);
+  color:grey;
+}
+
+/* Modifiers */
+.card--grey{
+  background-color:grey;
+}
+.card--grey .card__link{
+  right:20px;
+  left:auto;
+  
 }
