@@ -12,7 +12,7 @@ main{
 }
 /* Block */
 .card{
-  background-color: #1581e2;
+  background-color: #2abd22;
   padding: 100px 10px 40px 10px;
   display:flex;
   flex-direction:column;
@@ -47,7 +47,7 @@ main{
 
 /* Modifiers */
 .card--grey{
-  background-color:grey;
+  background-color:#e87523;
 }
 .card--grey .card__link{
   right:20px;
