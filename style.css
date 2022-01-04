@@ -49,7 +49,7 @@ main{
 
 /* Modifiers */
 .card--grey{
-  background-color:orange;
+  background-color:#e87523;
 }
 .card--grey .card__link{
   right:20px;
