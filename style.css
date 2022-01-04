@@ -27,14 +27,8 @@ main{
   position: absolute;
   left: 20px;
   top: 20px;
-  text-decoration:none;
   border-radius:100%;
   padding:5px;
-  transition: all ease 0.3s;
-  background-color:rgba(100%, 100%, 100%, 0.5)
-}
-.card__link:hover{
-  background-color:rgba(100%, 100%, 100%, 0.8)
 }
 
 .card__cta{
