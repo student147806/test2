@@ -79,22 +79,3 @@ main{
   margin:0;
 }
 /* Modifier */
-.card--overlay{
-/*  sets the origin context for container, i.e. top left of card becomes 0,0 instead of top left of page.  */
-  position:relative;
-}
-.card--overlay::before{
-  content:'';
-  position:absolute;
-  left:0;
-  top:0;
-  z-index:3;
-  background-color:rgba(0,0,0,0.5);
-  width:100%;
-  height:100%;
-  transition: all 0.3s ease;
-  transform-origin:top;
-}
-.card--overlay:hover::before{
-  transform:scaleY(0);
-}
