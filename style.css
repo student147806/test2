@@ -98,7 +98,7 @@ main{
 .card--overlay:hover::before{
   transform:scaleY(0);
 }
-a{
+.home{
   font-family: 'Raleway', sans-serif;
   color:white;
   padding:5px;
