@@ -2,11 +2,11 @@
 <html>
     <head>
         <title>line</title>
-        
         <meta charset="utf-8">
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
+  <button onclick="dark()">Dark Mode</button>
 <main>
   <article class="card">
   <header class="card__header">   
@@ -16,7 +16,7 @@
          width="300" height="175">
   </header>
   <section class="card__body card__body--raz">
-    <a href="raz.html">Raze</a>
+    <a href="raz.html" id="dark">Raze</a>
     <p>Grenades & Boombots</p>
   </section>
 </article>
@@ -28,10 +28,9 @@
          width="300" height="175">
   </header>
   <section class="card__body card__body--vip">
-    <a href="vip.html">Viper</a>
-    <p>Mollies, Setups, & One-Ways</p>
+    <a href="vip.html" id="dark">Viper</a>
+    <p id="dark">Mollies, Orbs, & One-Ways</p>
   </section>
-
 </article>
   <article class="card">
   <header class="card__header">   
@@ -41,10 +40,11 @@
          width="300" height="175">
   </header>
   <section class="card__body card__body--kj">
-    <a href="kj.html">Killjoy</a>
+    <a href="kj.html" id="dark">Killjoy</a>
     <p>Mollies & Site Setups</p>
   </section>
 </article>
 </main>
+        <script src="script.js"></script>
 </body>
 </html>
