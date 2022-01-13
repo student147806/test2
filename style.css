@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&family=Raleway&family=Roboto&display=swap');
-body{
-  background-color:#2b2b2b;
-}
+
 main{
   display:flex;
   justify-content:center;
@@ -23,6 +21,7 @@ main{
 .card__header{
   background-color:grey;
   overflow:clip;
+  color:black;
 }
 
 .card__header img{
@@ -56,31 +55,18 @@ main{
 .card__body a{
   font-family: 'Raleway', sans-serif;
   font-size: 1.5em;
-  color:white;
+  transition: all 0.3s ease;
 }
 
 .card__body a:hover{
-  text-decoration:none
-}
-
-.card__footer{
-  padding:15px;
-  font-family: 'Raleway', sans-serif;
-  display:flex;
-  justify-content: space-around;
-  font-size
-}
-
-.card__footer button{
-  height:100%;
+  text-decoration:none;
+  font-size: 1.6em;
 }
 
 .card__footer p{
   margin:0;
 }
-/* Modifier */
 .card--overlay{
-/*  sets the origin context for container, i.e. top left of card becomes 0,0 instead of top left of page.  */
   position:relative;
 }
 .card--overlay::before{
@@ -98,8 +84,9 @@ main{
 .card--overlay:hover::before{
   transform:scaleY(0);
 }
-.home{
-  font-family: 'Raleway', sans-serif;
-  color:white;
-  padding:5px;
+.dark{
+  background-color:#2b2b2b;
+}
+#dark{
+  color:black;
 }
